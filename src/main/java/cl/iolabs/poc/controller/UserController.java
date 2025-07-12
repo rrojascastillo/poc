@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping(value="/",method = RequestMethod.GET)
     public String homepage(){
-        return "Aplicacion de Prueba Spring Boot desde Git";
+        return "Aplicacion de Prueba Spring Boot desde Git IDE";
     }
 }
