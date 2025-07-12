@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'e9962833-8a91-4a18-b041-6f370a3e180f'
-  imageRepository: 'pocappimage'
+  imageRepository: 'samples/poc-app-img'
   containerRegistry: 'myacrrepo2025.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
